@@ -1,0 +1,217 @@
+# depslib dependency file v1.0
+1621807572 source:d:\kamel\freelance\allegro4 game with c\saboteur\main.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	<stdbool.h>
+	<allegro.h>
+	"menuDeJeu.h"
+
+1621987637 d:\kamel\freelance\allegro4 game with c\saboteur\menudejeu.h
+	"Headers/actionCartes.h"
+	"Headers/orCartes.h"
+	"Headers/pioche.h"
+	"Headers/joueur.h"
+	"Headers/partie.h"
+	"menu.h"
+	"aide.h"
+	"scorescreen.h"
+
+1621843352 d:\kamel\freelance\allegro4 game with c\saboteur\headers\actioncartes.h
+
+1621985762 d:\kamel\freelance\allegro4 game with c\saboteur\headers\orcartes.h
+
+1621842502 d:\kamel\freelance\allegro4 game with c\saboteur\headers\pioche.h
+
+1621886896 d:\kamel\freelance\allegro4 game with c\saboteur\headers\joueur.h
+
+1621977930 d:\kamel\freelance\allegro4 game with c\saboteur\headers\partie.h
+
+1621807570 d:\kamel\freelance\allegro4 game with c\saboteur\menu.h
+	"plateauDeJeu.h"
+	"Headers/nomdejoueurs.h"
+
+1621988684 d:\kamel\freelance\allegro4 game with c\saboteur\plateaudejeu.h
+	<stdio.h>
+	<stdlib.h>
+	"Headers/plateaumouselogique.h"
+	"Headers/plateaulogique.h"
+	"minerwinerscreen.h"
+	"saboteurwinerscreen.h"
+
+1621989563 d:\kamel\freelance\allegro4 game with c\saboteur\headers\plateaulogique.h
+
+1621985945 d:\kamel\freelance\allegro4 game with c\saboteur\headers\plateaumouselogique.h
+
+1621976630 d:\kamel\freelance\allegro4 game with c\saboteur\headers\nomdejoueurs.h
+
+1621778404 d:\kamel\freelance\allegro4 game with c\saboteur\aide.h
+
+1621986118 d:\kamel\freelance\allegro4 game with c\saboteur\minerwinerscreen.h
+
+1621987531 d:\kamel\freelance\allegro4 game with c\saboteur\scorescreen.h
+
+1621988575 d:\kamel\freelance\allegro4 game with c\saboteur\saboteurwinerscreen.h
+
+1621803972 source:c:\users\sébastien\desktop\saboteur\main.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	<stdbool.h>
+	<allegro.h>
+	"menuDeJeu.h"
+
+1621984037 c:\users\sébastien\desktop\saboteur\menudejeu.h
+	"Headers/actionCartes.h"
+	"Headers/orCartes.h"
+	"Headers/pioche.h"
+	"Headers/joueur.h"
+	"Headers/partie.h"
+	"menu.h"
+	"aide.h"
+	"scorescreen.h"
+
+1621839752 c:\users\sébastien\desktop\saboteur\headers\actioncartes.h
+
+1621982162 c:\users\sébastien\desktop\saboteur\headers\orcartes.h
+
+1621838902 c:\users\sébastien\desktop\saboteur\headers\pioche.h
+
+1621883296 c:\users\sébastien\desktop\saboteur\headers\joueur.h
+
+1621974330 c:\users\sébastien\desktop\saboteur\headers\partie.h
+
+1621803970 c:\users\sébastien\desktop\saboteur\menu.h
+	"plateauDeJeu.h"
+	"Headers/nomdejoueurs.h"
+
+1621985084 c:\users\sébastien\desktop\saboteur\plateaudejeu.h
+	<stdio.h>
+	<stdlib.h>
+	"Headers/plateaumouselogique.h"
+	"Headers/plateaulogique.h"
+	"minerwinerscreen.h"
+	"saboteurwinerscreen.h"
+
+1621982345 c:\users\sébastien\desktop\saboteur\headers\plateaumouselogique.h
+
+1621985963 c:\users\sébastien\desktop\saboteur\headers\plateaulogique.h
+
+1621982518 c:\users\sébastien\desktop\saboteur\minerwinerscreen.h
+
+1621984975 c:\users\sébastien\desktop\saboteur\saboteurwinerscreen.h
+
+1621973030 c:\users\sébastien\desktop\saboteur\headers\nomdejoueurs.h
+
+1621774804 c:\users\sébastien\desktop\saboteur\aide.h
+
+1621983931 c:\users\sébastien\desktop\saboteur\scorescreen.h
+
+1622322507 source:d:\kamel\freelance\allegro4 game with c\temp\saboteur_v2\saboteur_v2\main.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	<stdbool.h>
+	<Allegro.h>
+	"menuDeJeu.h"
+
+1621987638 d:\kamel\freelance\allegro4 game with c\temp\saboteur_v2\saboteur_v2\menudejeu.h
+	"Headers/actionCartes.h"
+	"Headers/orCartes.h"
+	"Headers/pioche.h"
+	"Headers/joueur.h"
+	"Headers/partie.h"
+	"menu.h"
+	"aide.h"
+	"scorescreen.h"
+
+1621843354 d:\kamel\freelance\allegro4 game with c\temp\saboteur_v2\saboteur_v2\headers\actioncartes.h
+
+1621985764 d:\kamel\freelance\allegro4 game with c\temp\saboteur_v2\saboteur_v2\headers\orcartes.h
+
+1621842504 d:\kamel\freelance\allegro4 game with c\temp\saboteur_v2\saboteur_v2\headers\pioche.h
+
+1621886898 d:\kamel\freelance\allegro4 game with c\temp\saboteur_v2\saboteur_v2\headers\joueur.h
+
+1621977932 d:\kamel\freelance\allegro4 game with c\temp\saboteur_v2\saboteur_v2\headers\partie.h
+
+1621807572 d:\kamel\freelance\allegro4 game with c\temp\saboteur_v2\saboteur_v2\menu.h
+	"plateauDeJeu.h"
+	"Headers/nomdejoueurs.h"
+
+1621988686 d:\kamel\freelance\allegro4 game with c\temp\saboteur_v2\saboteur_v2\plateaudejeu.h
+	<stdio.h>
+	<stdlib.h>
+	"Headers/plateaumouselogique.h"
+	"Headers/plateaulogique.h"
+	"minerwinerscreen.h"
+	"saboteurwinerscreen.h"
+
+1621985946 d:\kamel\freelance\allegro4 game with c\temp\saboteur_v2\saboteur_v2\headers\plateaumouselogique.h
+
+1621989564 d:\kamel\freelance\allegro4 game with c\temp\saboteur_v2\saboteur_v2\headers\plateaulogique.h
+
+1621986120 d:\kamel\freelance\allegro4 game with c\temp\saboteur_v2\saboteur_v2\minerwinerscreen.h
+
+1621988576 d:\kamel\freelance\allegro4 game with c\temp\saboteur_v2\saboteur_v2\saboteurwinerscreen.h
+
+1622324083 d:\kamel\freelance\allegro4 game with c\temp\saboteur_v2\saboteur_v2\headers\nomdejoueurs.h
+
+1621778406 d:\kamel\freelance\allegro4 game with c\temp\saboteur_v2\saboteur_v2\aide.h
+
+1621987532 d:\kamel\freelance\allegro4 game with c\temp\saboteur_v2\saboteur_v2\scorescreen.h
+
+1622322507 source:d:\kamel\freelance\allegro4 game with c\saboteur_v3 stable\main.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	<stdbool.h>
+	<Allegro.h>
+	"menuDeJeu.h"
+
+1621987638 d:\kamel\freelance\allegro4 game with c\saboteur_v3 stable\menudejeu.h
+	"Headers/actionCartes.h"
+	"Headers/orCartes.h"
+	"Headers/pioche.h"
+	"Headers/joueur.h"
+	"Headers/partie.h"
+	"menu.h"
+	"aide.h"
+	"scorescreen.h"
+
+1621843354 d:\kamel\freelance\allegro4 game with c\saboteur_v3 stable\headers\actioncartes.h
+
+1621985764 d:\kamel\freelance\allegro4 game with c\saboteur_v3 stable\headers\orcartes.h
+
+1621842504 d:\kamel\freelance\allegro4 game with c\saboteur_v3 stable\headers\pioche.h
+
+1621886898 d:\kamel\freelance\allegro4 game with c\saboteur_v3 stable\headers\joueur.h
+
+1621977932 d:\kamel\freelance\allegro4 game with c\saboteur_v3 stable\headers\partie.h
+
+1621807572 d:\kamel\freelance\allegro4 game with c\saboteur_v3 stable\menu.h
+	"plateauDeJeu.h"
+	"Headers/nomdejoueurs.h"
+
+1621988686 d:\kamel\freelance\allegro4 game with c\saboteur_v3 stable\plateaudejeu.h
+	<stdio.h>
+	<stdlib.h>
+	"Headers/plateaumouselogique.h"
+	"Headers/plateaulogique.h"
+	"minerwinerscreen.h"
+	"saboteurwinerscreen.h"
+
+1621985946 d:\kamel\freelance\allegro4 game with c\saboteur_v3 stable\headers\plateaumouselogique.h
+
+1621989564 d:\kamel\freelance\allegro4 game with c\saboteur_v3 stable\headers\plateaulogique.h
+
+1621986120 d:\kamel\freelance\allegro4 game with c\saboteur_v3 stable\minerwinerscreen.h
+
+1621988576 d:\kamel\freelance\allegro4 game with c\saboteur_v3 stable\saboteurwinerscreen.h
+
+1622324083 d:\kamel\freelance\allegro4 game with c\saboteur_v3 stable\headers\nomdejoueurs.h
+
+1621778406 d:\kamel\freelance\allegro4 game with c\saboteur_v3 stable\aide.h
+
+1621987532 d:\kamel\freelance\allegro4 game with c\saboteur_v3 stable\scorescreen.h
+
