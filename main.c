@@ -12,7 +12,7 @@ int main()
     allegro_init();
     //install_int_ex(Increment,BPS_TO_TIMER(100));
     ///initialisation de program Allegro 4
-    set_window_title("saboteur"); // nom de program
+    set_window_title("Luck card game"); // nom de program
     install_keyboard();
     install_mouse();
     set_color_depth(16);

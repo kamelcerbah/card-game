@@ -215,3 +215,57 @@
 
 1621987532 d:\kamel\freelance\allegro4 game with c\saboteur_v3 stable\scorescreen.h
 
+1633107806 source:c:\users\cerbah\desktop\card-game\main.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	<stdbool.h>
+	<Allegro.h>
+	"menuDeJeu.h"
+
+1633259354 c:\users\cerbah\desktop\card-game\menudejeu.h
+	"Headers/actionCartes.h"
+	"Headers/orCartes.h"
+	"Headers/pioche.h"
+	"Headers/joueur.h"
+	"Headers/partie.h"
+	"menu.h"
+	"aide.h"
+	"scorescreen.h"
+
+1633107805 c:\users\cerbah\desktop\card-game\headers\actioncartes.h
+
+1633107805 c:\users\cerbah\desktop\card-game\headers\orcartes.h
+
+1633107805 c:\users\cerbah\desktop\card-game\headers\pioche.h
+
+1633107805 c:\users\cerbah\desktop\card-game\headers\joueur.h
+
+1633107805 c:\users\cerbah\desktop\card-game\headers\partie.h
+
+1633107806 c:\users\cerbah\desktop\card-game\menu.h
+	"plateauDeJeu.h"
+	"Headers/nomdejoueurs.h"
+
+1633107806 c:\users\cerbah\desktop\card-game\plateaudejeu.h
+	<stdio.h>
+	<stdlib.h>
+	"Headers/plateaumouselogique.h"
+	"Headers/plateaulogique.h"
+	"minerwinerscreen.h"
+	"saboteurwinerscreen.h"
+
+1633107805 c:\users\cerbah\desktop\card-game\headers\plateaumouselogique.h
+
+1633107805 c:\users\cerbah\desktop\card-game\headers\plateaulogique.h
+
+1633107806 c:\users\cerbah\desktop\card-game\minerwinerscreen.h
+
+1633107806 c:\users\cerbah\desktop\card-game\saboteurwinerscreen.h
+
+1633107805 c:\users\cerbah\desktop\card-game\headers\nomdejoueurs.h
+
+1633107805 c:\users\cerbah\desktop\card-game\aide.h
+
+1633107806 c:\users\cerbah\desktop\card-game\scorescreen.h
+

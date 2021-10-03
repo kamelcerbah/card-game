@@ -54,11 +54,11 @@ void menuDeJeu(void)
         if(key[KEY_UP])
             counter--;
 
-        if(counter>5 )
+        if(counter>4 )
             counter=1;
 
         if(counter<0)
-            counter=5;
+            counter=4;
 
         switch(counter)
         {
@@ -98,17 +98,9 @@ void menuDeJeu(void)
                 rest(50);
             }
             break;
+
         case 4:
             BackGroundImage = load_bitmap("assets/menu_screen/menu_screen5.bmp",NULL);
-            if(key[KEY_ENTER]){
-                partie = readPartieData();
-                scoresScreen(partie);
-            }
-
-
-            break;
-        case 5:
-            BackGroundImage = load_bitmap("assets/menu_screen/menu_screen6.bmp",NULL);
             if(key[KEY_ENTER])
                 Handler();
             break;
