@@ -23,9 +23,11 @@ void menu(int w,int h,int nbDePartie)
 
 
     /// not exiting till esc is pressed
+
     bool isDone= false;
     while(!isDone)
     {
+
 
         /// menu functionlity
         if(key[KEY_ESC])
@@ -66,7 +68,7 @@ void menu(int w,int h,int nbDePartie)
                 /// plateauDeJeu.h
                 plateauDeJeu(&newPartie);
                 rest(40);
-                set_gfx_mode(GFX_AUTODETECT_WINDOWED,640,480,0,0);
+                set_gfx_mode(GFX_AUTODETECT_WINDOWED,w,h,0,0);
 
                 isDone=true;
 

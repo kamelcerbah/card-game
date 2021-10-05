@@ -5,11 +5,12 @@
 #include "Headers/partie.h"
 
 
-#include "menu.h"
+//#include "menu.h"
 #include "aide.h"
 #include "scorescreen.h"
 
-
+#include "plateauDeJeu.h"
+#include "Headers/nomdejoueurs.h"
 
 
 ///exit button
@@ -67,8 +68,26 @@ void menuDeJeu(void)
             if(key[KEY_ENTER])
             {
                 clear_bitmap(menuScreen);
+                /// -> partie.h
+                Partie newPartie ;
+                initPartie(&newPartie,1,0);
+
+
+                /// -> nomDeJoueurs.h
+                //nomDeJoueurs(w,h,2,&newPartie);
+
+                strcpy(newPartie.joueurs[0].nom,"Lucky Player");
+
+                /// plateauDeJeu.h
+                plateauDeJeu(&newPartie);
+                rest(40);
+                set_gfx_mode(GFX_AUTODETECT_WINDOWED,w,h,0,0);
+
+                /*
+                clear_bitmap(menuScreen);
                 menu(w,h,1); //prv :    menu(w,h,nb+1);    use nb+1 when  u finish the "work on this later"  Line 39
                 rest(50);
+                */
             }
 
 

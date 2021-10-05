@@ -223,15 +223,16 @@
 	<Allegro.h>
 	"menuDeJeu.h"
 
-1633439597 c:\users\cerbah\desktop\card-game\menudejeu.h
+1633440373 c:\users\cerbah\desktop\card-game\menudejeu.h
 	"Headers/actionCartes.h"
 	"Headers/orCartes.h"
 	"Headers/pioche.h"
 	"Headers/joueur.h"
 	"Headers/partie.h"
-	"menu.h"
 	"aide.h"
 	"scorescreen.h"
+	"plateauDeJeu.h"
+	"Headers/nomdejoueurs.h"
 
 1633107805 c:\users\cerbah\desktop\card-game\headers\actioncartes.h
 
@@ -243,7 +244,7 @@
 
 1633107805 c:\users\cerbah\desktop\card-game\headers\partie.h
 
-1633107806 c:\users\cerbah\desktop\card-game\menu.h
+1633440189 c:\users\cerbah\desktop\card-game\menu.h
 	"plateauDeJeu.h"
 	"Headers/nomdejoueurs.h"
 
