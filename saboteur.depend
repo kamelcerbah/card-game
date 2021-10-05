@@ -215,7 +215,7 @@
 
 1621987532 d:\kamel\freelance\allegro4 game with c\saboteur_v3 stable\scorescreen.h
 
-1633107806 source:c:\users\cerbah\desktop\card-game\main.c
+1633438868 source:c:\users\cerbah\desktop\card-game\main.c
 	<stdio.h>
 	<stdlib.h>
 	<math.h>
@@ -223,7 +223,7 @@
 	<Allegro.h>
 	"menuDeJeu.h"
 
-1633259354 c:\users\cerbah\desktop\card-game\menudejeu.h
+1633439597 c:\users\cerbah\desktop\card-game\menudejeu.h
 	"Headers/actionCartes.h"
 	"Headers/orCartes.h"
 	"Headers/pioche.h"

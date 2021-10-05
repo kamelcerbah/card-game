@@ -28,10 +28,10 @@ void menuDeJeu(void)
     ///exit si il tape sur x
     LOCK_FUNCTION(Handler);
 
-    int w = 640;
-    int h = 480;
+    int w = 800;
+    int h = 600;
     /// counter to select from menu
-    int counter =1;
+    int counter =0;
 
 
     /// double buffering screen
@@ -55,7 +55,7 @@ void menuDeJeu(void)
             counter--;
 
         if(counter>4 )
-            counter=1;
+            counter=0;
 
         if(counter<0)
             counter=4;
@@ -84,7 +84,7 @@ void menuDeJeu(void)
                 plateauDeJeu(&partie);
 
                 rest(40);
-                set_gfx_mode(GFX_AUTODETECT_WINDOWED,640,480,0,0);
+                set_gfx_mode(GFX_AUTODETECT_WINDOWED,w,h,0,0);
 
             }
 
