@@ -57,6 +57,7 @@ void initPartie(Partie *partie,int nbJoueurs,int nbDePartie){
             partie->joueurs[i].cartes[j] = pop(&partie->pioche);
 
         /// init plateau cartes
+        /*
     partie->cartesDePlateau = 1;
     strcpy(partie->plateauCartes[0].fp_Back,"assets/cartes/action/back.bmp");
     strcpy(partie->plateauCartes[0].fp_Face,"assets/cartes/entree_mine.bmp");
@@ -65,6 +66,7 @@ void initPartie(Partie *partie,int nbJoueurs,int nbDePartie){
     partie->plateauCartes[0].type = galerie;
     partie->plateauCartes[0].x = 125;
     partie->plateauCartes[0].y = 577;
+    */
 
 
 

@@ -24,7 +24,7 @@ void plateauDeJeu(Partie *partie)
     BITMAP *plateau = create_bitmap(1024,900);
 
     /// background image
-    BITMAP *backGround = load_bitmap("assets/plateau/plateau_v2.bmp",NULL);
+    BITMAP *backGround = load_bitmap("assets/plateau/cardGamePlateau.bmp",NULL);
 
     ///game timer
     timer = partie->prvTimer;

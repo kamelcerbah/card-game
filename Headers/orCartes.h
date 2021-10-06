@@ -49,7 +49,7 @@ void iniOrCartes(OrCarte *orCartes)
 
     // nombre des pepties d'or en random
     iniNombreDesOr(orCartes);
-    int y =385;
+    int x =221;
 
     ///testing ,  x and y != 0
     shuffleOrCartes(orCartes);
@@ -58,10 +58,10 @@ void iniOrCartes(OrCarte *orCartes)
     strcpy(orCartes[i].fp_Face,baseEnOrNombre(orCartes[i].orNb));
     strcpy(orCartes[i].fp_Back,"assets/cartes/or/dos.bmp");
 
-    orCartes[i].x = 890;
-    orCartes[i].y = y;
+    orCartes[i].x = x;
+    orCartes[i].y = 385;
     orCartes[i].enFace = false;
-    y+=190;
+    x+=190;
     }
 
 

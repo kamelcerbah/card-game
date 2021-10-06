@@ -67,9 +67,9 @@ void animerJoueurEnTour(BITMAP *plateau,Joueur joueur,FONT* font1)
 {
 
     //texte à afficher dans l'application
-    textout_ex (plateau,font1,joueur.nom,85,9,makecol(32,29,240),makecol(164,194,244));
-    textprintf_ex(plateau, font1,576, 14, makecol(32,29,240),makecol(164,194,244), " %d ", joueur.score );
-    animerJoueurEnTourRole(plateau,joueur,font1);
+    //textout_ex (plateau,font1,joueur.nom,85,9,makecol(32,29,240),makecol(164,194,244));
+    //textprintf_ex(plateau, font1,576, 14, makecol(32,29,240),makecol(164,194,244), " %d ", joueur.score );
+//animerJoueurEnTourRole(plateau,joueur,font1);
 
     // anime les cartes
 
@@ -318,7 +318,7 @@ for(int i=0;i<partie->cartesDePlateau;i++){
                         for(int m = 0;m<3;m++){
                             if(m != j)
                             partie->joueurs[m].score = partie->orCartes[m].orNb;
-                            printf("here 1");
+                          //  printf("here 1");
 
                 }
                 }
