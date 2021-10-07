@@ -187,7 +187,7 @@ void animerJoueurs(BITMAP* plateau,Joueur * joueurs,int nbj)
     FONT *font1 =load_font("font1.pcx",NULL,NULL);
     int  index ;
     //TEXT de joueur en tour
-    textout_ex (plateau,font1,"Les cartes de penalty",29,193,makecol(32,29,240),makecol(164,194,244));
+    //textout_ex (plateau,font1,"Les cartes de penalty",29,193,makecol(32,29,240),makecol(164,194,244));
     /// variable des joueurs en attend a gauch
     int y_nom = 400 ;  //Nom pos : x 20      y 400
     int y_score =440 ;   //score pos :x 70        y 440

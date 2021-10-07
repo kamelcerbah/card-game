@@ -2,7 +2,11 @@ typedef enum {galerie,action} Type;
 
 // _c pour casse  et _r pour repare
 typedef enum {carrefour,chemin,impasse,Tright,Tup,chariot_c,chariot_pioche_r,chariot_r,eboulement,lanterne_c,lanterne_chariot_r,lanterne_pioche_r,lanterne_r,mapp,pioche_c,pioche_r,tous_outils_c,entree_mine} Nom;
-const int nbActionCartes = 69 ;
+const int nbActionCartes = 10 ;
+
+ char  cardsFilePaths[5][60] = {"assets/cartes/face/chemin.bmp","assets/cartes/face/carrefour.bmp","assets/cartes/face/impasse.bmp","assets/cartes/face/Tright.bmp","assets/cartes/face/Tup.bmp"};
+//cardsFilePaths[0] = "assets/cartes/face/chemin.bmp";
+
 //Il exist deux struct pour action carte car le les fichiers ne peuvent pas enregistrer la structure bitmap
 //donc en utilise la preimier struct pour enregistrer dans le fichiers
 // et le deuxième pour manipuler dans le program
@@ -28,12 +32,16 @@ typedef struct
 } ActionCartes;
 */
 char action_cartes_fname[] = {"cartesdata.dat"};
+//make a string array and add all the cards file path
 
 
 
 /// init ActionCarteDatas
+
 void actionCartesLibrary(ActionCarteData actionCartes[])
 {
+    int cardNum = 0;
+    int index =0;
     int i;
     int x,y;
     x=0;
@@ -41,17 +49,27 @@ void actionCartesLibrary(ActionCarteData actionCartes[])
     bool onFace = true;
 
     //carte galerie
-    for(i=0; i<9; i++)
+    for(i=0; i<10; i++)
     {
-        actionCartes[i].nom = carrefour;
-        actionCartes[i].type = galerie;
-        strcpy(actionCartes[i].fp_Face,"assets/cartes/action/galerie/carrefour.bmp");
-        strcpy(actionCartes[i].fp_Back,"assets/cartes/action/back.bmp");
-        actionCartes[i].onFace= onFace;
-        actionCartes[i].x=x;
-        actionCartes[i].y =y;
-    }
+        if(index > nbActionCartes/2)
+            index=0;
 
+        actionCartes[cardNum].nom = carrefour;
+        actionCartes[cardNum].type = galerie;
+        strcpy(actionCartes[cardNum].fp_Face,cardsFilePaths[index]);
+        strcpy(actionCartes[cardNum].fp_Back,"assets/cartes/action/back.bmp");
+        actionCartes[cardNum].onFace= onFace;
+        actionCartes[cardNum].x=x;
+        actionCartes[cardNum].y =y;
+
+        cardNum++;
+        index++;
+
+
+
+
+    }
+/*
     for(i=i; i<(9*2); i++)
     {
         actionCartes[i].nom = chemin;
@@ -226,7 +244,7 @@ void actionCartesLibrary(ActionCarteData actionCartes[])
         actionCartes[i].x=x;
         actionCartes[i].y =y;
     }
-
+*/
 
 }
 
@@ -271,7 +289,9 @@ void shuffleActionCartes(ActionCarteData *actionCartes){
 
     for(int i = 0 ;i < nbActionCartes;i++){
         randomIndex[i] = rand() % nbActionCartes;
+        //printf("%d",randomIndex[i]);
     }
+
 
     ActionCarteData temp;
         for(int i=0 ;i<nbActionCartes;i++){
@@ -310,10 +330,13 @@ void ChargementDesCartes(ActionCarteData *actionCartes )
 
 void initActionCartes(ActionCarteData *actionCartes){
     //les cartes file path
-    FILE *cartes_fp = fopen(action_cartes_fname,"rb");
+   // FILE *cartes_fp = fopen(action_cartes_fname,"rb");
 
     // si le fichier .dat des cartes n'exist pas il ini les cartes
-     (!cartes_fp)? iniEtChargementDesCartes(actionCartes):ChargementDesCartes(actionCartes);
+    // (!cartes_fp)? iniEtChargementDesCartes(actionCartes):ChargementDesCartes(actionCartes);
+     iniEtChargementDesCartes(actionCartes);
+    // ChargementDesCartes(actionCartes);
+
 }
 
 
