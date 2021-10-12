@@ -57,7 +57,7 @@ void actionCartesLibrary(ActionCarteData actionCartes[])
         actionCartes[cardNum].nom = carrefour;
         actionCartes[cardNum].type = galerie;
         strcpy(actionCartes[cardNum].fp_Face,cardsFilePaths[index]);
-        strcpy(actionCartes[cardNum].fp_Back,"assets/cartes/action/back.bmp");
+        strcpy(actionCartes[cardNum].fp_Back,"assets/cartes/back/back.bmp");
         actionCartes[cardNum].onFace= onFace;
         actionCartes[cardNum].x=x;
         actionCartes[cardNum].y =y;

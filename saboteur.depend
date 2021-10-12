@@ -243,13 +243,13 @@
 
 1633529014 c:\users\cerbah\desktop\card-game\headers\partie.h
 
-1634031643 c:\users\cerbah\desktop\card-game\menu.h
+1634031749 c:\users\cerbah\desktop\card-game\menu.h
 	"Headers/play_cards.h"
 	"Headers/hidden_cards.h"
 	"Headers/cards_to_play.h"
 	"Headers/player.h"
 	"Headers/party.h"
-	"aide.h"
+	"aid.h"
 	"scorescreen.h"
 	"board.h"
 
@@ -279,7 +279,7 @@
 
 1633107806 c:\users\cerbah\desktop\card-game\lose_screen.h
 
-1633606998 c:\users\cerbah\desktop\card-game\headers\play_cards.h
+1634032183 c:\users\cerbah\desktop\card-game\headers\play_cards.h
 
 1633530754 c:\users\cerbah\desktop\card-game\headers\hidden_cards.h
 
@@ -299,5 +299,7 @@
 
 1633107805 c:\users\cerbah\desktop\card-game\headers\board_mouse_logic.h
 
-1633602965 c:\users\cerbah\desktop\card-game\headers\board_logic.h
+1634032313 c:\users\cerbah\desktop\card-game\headers\board_logic.h
+
+1633107805 c:\users\cerbah\desktop\card-game\aid.h
 

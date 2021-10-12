@@ -14,6 +14,7 @@ void animerOrCartes(BITMAP* plateau, OrCarte *orCartes)
 
     }
 }
+/*
 void animerJoueurEnTourRole(BITMAP *plateau,Joueur joueur,FONT *font1)
 {
     if(joueur.role == saboteur)
@@ -34,6 +35,9 @@ void animerJoueurEnTourRole(BITMAP *plateau,Joueur joueur,FONT *font1)
     }
 
 }
+*/
+
+/*
 void animerJoueurEnTourPnealityCartes (BITMAP *plateau,Joueur joueur,FONT *font1,int x_debut,int x_inc,int y)
 {
     //int x = 219 ;   // x 29         y 193
@@ -62,6 +66,7 @@ void animerJoueurEnTourPnealityCartes (BITMAP *plateau,Joueur joueur,FONT *font1
 
 
 }
+*/
 
 void animerJoueurEnTour(BITMAP *plateau,Joueur joueur,FONT* font1)
 {
@@ -83,7 +88,7 @@ for(int i =0;i<6;i++){
     }
 
     // anime pneality cartes
-    animerJoueurEnTourPnealityCartes(plateau,joueur,font1,219,95,193);
+    //animerJoueurEnTourPnealityCartes(plateau,joueur,font1,219,95,193);
 
 
 }
@@ -195,7 +200,7 @@ void animerJoueurs(BITMAP* plateau,Joueur * joueurs,int nbj)
 
     /// variable des joueurs en attend a haut
     int x_nom_top = 145 ;  //Nom pos : x 145      y 321
-    int x_penlity =221 ;   //pena  pos :x 221        y 289
+    //int x_penlity =221 ;   //pena  pos :x 221        y 289
 
     /// trouve index de le joueur en tour
     for(int i=0; i<nbj; i++)
@@ -223,8 +228,8 @@ void animerJoueurs(BITMAP* plateau,Joueur * joueurs,int nbj)
             /// animate joueurs en attend nom et penality
             textout_ex (plateau,font1,joueurs[i].nom,x_nom_top,321,makecol(32,29,240),makecol(164,194,244));
             x_nom_top+=288;
-            animerJoueurEnTourPnealityCartes(plateau,joueurs[i],font1,x_penlity,47,289);
-            x_penlity += 288;
+           // animerJoueurEnTourPnealityCartes(plateau,joueurs[i],font1,x_penlity,47,289);
+           // x_penlity += 288;
 
 
         }
