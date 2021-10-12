@@ -40,14 +40,7 @@ void aideMenu(int w,int h){
         case 1:
             menuImg = load_bitmap("assets/aide/aide1.bmp",NULL);
             break;
-        case 2:
-            menuImg = load_bitmap("assets/aide/aide2.bmp",NULL);
 
-            break;
-        case 3:
-            menuImg = load_bitmap("assets/aide/aide3.bmp",NULL);
-
-            break;
         default:
             menuImg = load_bitmap("assets/aide/aide1.bmp",NULL);
             break;
