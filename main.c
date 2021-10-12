@@ -3,7 +3,7 @@
 #include <math.h>
 #include <stdbool.h>
 #include <Allegro.h>
-#include "menuDeJeu.h"
+#include "menu.h"
 
 int main()
 {

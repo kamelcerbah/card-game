@@ -33,7 +33,6 @@
 		</Compiler>
 		<Unit filename="Headers/actionCartes.h" />
 		<Unit filename="Headers/joueur.h" />
-		<Unit filename="Headers/nomdejoueurs.h" />
 		<Unit filename="Headers/orCartes.h" />
 		<Unit filename="Headers/partie.h" />
 		<Unit filename="Headers/pioche.h" />
@@ -43,8 +42,9 @@
 		<Unit filename="main.c">
 			<Option compilerVar="CC" />
 		</Unit>
-		<Unit filename="menu.h" />
-		<Unit filename="menuDeJeu.h" />
+		<Unit filename="menuDeJeu.h">
+			<Option link="1" />
+		</Unit>
 		<Unit filename="minerwinerscreen.h" />
 		<Unit filename="plateauDeJeu.h" />
 		<Unit filename="saboteurwinerscreen.h" />

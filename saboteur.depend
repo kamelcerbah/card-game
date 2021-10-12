@@ -215,15 +215,15 @@
 
 1621987532 d:\kamel\freelance\allegro4 game with c\saboteur_v3 stable\scorescreen.h
 
-1633438868 source:c:\users\cerbah\desktop\card-game\main.c
+1634030939 source:c:\users\cerbah\desktop\card-game\main.c
 	<stdio.h>
 	<stdlib.h>
 	<math.h>
 	<stdbool.h>
 	<Allegro.h>
-	"menuDeJeu.h"
+	"menu.h"
 
-1633440373 c:\users\cerbah\desktop\card-game\menudejeu.h
+1634030351 c:\users\cerbah\desktop\card-game\menudejeu.h
 	"Headers/actionCartes.h"
 	"Headers/orCartes.h"
 	"Headers/pioche.h"
@@ -232,7 +232,6 @@
 	"aide.h"
 	"scorescreen.h"
 	"plateauDeJeu.h"
-	"Headers/nomdejoueurs.h"
 
 1633606998 c:\users\cerbah\desktop\card-game\headers\actioncartes.h
 
@@ -244,17 +243,23 @@
 
 1633529014 c:\users\cerbah\desktop\card-game\headers\partie.h
 
-1633440189 c:\users\cerbah\desktop\card-game\menu.h
-	"plateauDeJeu.h"
-	"Headers/nomdejoueurs.h"
+1634031643 c:\users\cerbah\desktop\card-game\menu.h
+	"Headers/play_cards.h"
+	"Headers/hidden_cards.h"
+	"Headers/cards_to_play.h"
+	"Headers/player.h"
+	"Headers/party.h"
+	"aide.h"
+	"scorescreen.h"
+	"board.h"
 
-1633607147 c:\users\cerbah\desktop\card-game\plateaudejeu.h
+1634031067 c:\users\cerbah\desktop\card-game\plateaudejeu.h
 	<stdio.h>
 	<stdlib.h>
 	"Headers/plateaumouselogique.h"
 	"Headers/plateaulogique.h"
-	"minerwinerscreen.h"
-	"saboteurwinerscreen.h"
+	"win_screen.h"
+	"lose_screen.h"
 
 1633107805 c:\users\cerbah\desktop\card-game\headers\plateaumouselogique.h
 
@@ -269,4 +274,30 @@
 1633107805 c:\users\cerbah\desktop\card-game\aide.h
 
 1633107806 c:\users\cerbah\desktop\card-game\scorescreen.h
+
+1633107806 c:\users\cerbah\desktop\card-game\win_screen.h
+
+1633107806 c:\users\cerbah\desktop\card-game\lose_screen.h
+
+1633606998 c:\users\cerbah\desktop\card-game\headers\play_cards.h
+
+1633530754 c:\users\cerbah\desktop\card-game\headers\hidden_cards.h
+
+1633606287 c:\users\cerbah\desktop\card-game\headers\cards_to_play.h
+
+1633107805 c:\users\cerbah\desktop\card-game\headers\player.h
+
+1633529014 c:\users\cerbah\desktop\card-game\headers\party.h
+
+1634031424 c:\users\cerbah\desktop\card-game\board.h
+	<stdio.h>
+	<stdlib.h>
+	"Headers/board_mouse_logic.h"
+	"Headers/board_logic.h"
+	"win_screen.h"
+	"lose_screen.h"
+
+1633107805 c:\users\cerbah\desktop\card-game\headers\board_mouse_logic.h
+
+1633602965 c:\users\cerbah\desktop\card-game\headers\board_logic.h
 

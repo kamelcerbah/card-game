@@ -1,9 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "Headers/plateaumouselogique.h"
-#include "Headers/plateaulogique.h"
-#include "minerwinerscreen.h"
-#include "saboteurwinerscreen.h"
+#include "Headers/board_mouse_logic.h"
+#include "Headers/board_logic.h"
+#include "win_screen.h"
+#include "lose_screen.h"
 //const int partiesMax = 30 ;
 // timer
 long int timer  ;
