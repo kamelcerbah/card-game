@@ -4,7 +4,7 @@ typedef enum {galerie,action} Type;
 typedef enum {carrefour,chemin,impasse,Tright,Tup,chariot_c,chariot_pioche_r,chariot_r,eboulement,lanterne_c,lanterne_chariot_r,lanterne_pioche_r,lanterne_r,mapp,pioche_c,pioche_r,tous_outils_c,entree_mine} Nom;
 const int nbActionCartes = 10 ;
 
- char  cardsFilePaths[5][60] = {"assets/cartes/face/chemin.bmp","assets/cartes/face/carrefour.bmp","assets/cartes/face/impasse.bmp","assets/cartes/face/Tright.bmp","assets/cartes/face/Tup.bmp"};
+ char  cardsFilePaths[5][60] = {"assets/cartes/face/1.bmp","assets/cartes/face/2.bmp","assets/cartes/face/3.bmp","assets/cartes/face/4.bmp","assets/cartes/face/5.bmp"};
 //cardsFilePaths[0] = "assets/cartes/face/chemin.bmp";
 
 //Il exist deux struct pour action carte car le les fichiers ne peuvent pas enregistrer la structure bitmap

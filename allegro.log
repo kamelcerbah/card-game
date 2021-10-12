@@ -9,12 +9,5 @@ al-gfx INFO: Closing graphics driver (10142F88) DirectDraw window.
 al-gfx INFO: Autodetecting graphic driver.
 al-gfx INFO: The driver will wait for vsync.
 al-gfx INFO: set_gfx_card success for 1024x900x16.
-al-gfx INFO: Called set_gfx_mode(2, 800, 600, 0, 0).
-al-gfx INFO: Closing graphics driver (10142F88) DirectDraw window.
-al-gfx INFO: Autodetecting graphic driver.
-al-gfx INFO: The driver will wait for vsync.
-al-gfx INFO: set_gfx_card success for 800x600x16.
 al-gfx INFO: Called set_gfx_mode(-1, 0, 0, 0, 0).
 al-gfx INFO: Closing graphics driver (10142F88) DirectDraw window.
-al-gfx INFO: Closing, restoring original console state.
-al-gfx INFO: Graphic mode closed.
