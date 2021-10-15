@@ -14,6 +14,7 @@ void animerOrCartes(BITMAP* plateau, OrCarte *orCartes)
 
     }
 }
+/*
 void animerJoueurEnTourRole(BITMAP *plateau,Joueur joueur,FONT *font1)
 {
     if(joueur.role == saboteur)
@@ -34,6 +35,9 @@ void animerJoueurEnTourRole(BITMAP *plateau,Joueur joueur,FONT *font1)
     }
 
 }
+*/
+
+/*
 void animerJoueurEnTourPnealityCartes (BITMAP *plateau,Joueur joueur,FONT *font1,int x_debut,int x_inc,int y)
 {
     //int x = 219 ;   // x 29         y 193
@@ -62,14 +66,15 @@ void animerJoueurEnTourPnealityCartes (BITMAP *plateau,Joueur joueur,FONT *font1
 
 
 }
+*/
 
 void animerJoueurEnTour(BITMAP *plateau,Joueur joueur,FONT* font1)
 {
 
     //texte à afficher dans l'application
-    textout_ex (plateau,font1,joueur.nom,85,9,makecol(32,29,240),makecol(164,194,244));
-    textprintf_ex(plateau, font1,576, 14, makecol(32,29,240),makecol(164,194,244), " %d ", joueur.score );
-    animerJoueurEnTourRole(plateau,joueur,font1);
+    //textout_ex (plateau,font1,joueur.nom,85,9,makecol(32,29,240),makecol(164,194,244));
+    //textprintf_ex(plateau, font1,576, 14, makecol(32,29,240),makecol(164,194,244), " %d ", joueur.score );
+//animerJoueurEnTourRole(plateau,joueur,font1);
 
     // anime les cartes
 
@@ -83,7 +88,7 @@ for(int i =0;i<6;i++){
     }
 
     // anime pneality cartes
-    animerJoueurEnTourPnealityCartes(plateau,joueur,font1,219,95,193);
+    //animerJoueurEnTourPnealityCartes(plateau,joueur,font1,219,95,193);
 
 
 }
@@ -187,7 +192,7 @@ void animerJoueurs(BITMAP* plateau,Joueur * joueurs,int nbj)
     FONT *font1 =load_font("font1.pcx",NULL,NULL);
     int  index ;
     //TEXT de joueur en tour
-    textout_ex (plateau,font1,"Les cartes de penalty",29,193,makecol(32,29,240),makecol(164,194,244));
+    //textout_ex (plateau,font1,"Les cartes de penalty",29,193,makecol(32,29,240),makecol(164,194,244));
     /// variable des joueurs en attend a gauch
     int y_nom = 400 ;  //Nom pos : x 20      y 400
     int y_score =440 ;   //score pos :x 70        y 440
@@ -195,7 +200,7 @@ void animerJoueurs(BITMAP* plateau,Joueur * joueurs,int nbj)
 
     /// variable des joueurs en attend a haut
     int x_nom_top = 145 ;  //Nom pos : x 145      y 321
-    int x_penlity =221 ;   //pena  pos :x 221        y 289
+    //int x_penlity =221 ;   //pena  pos :x 221        y 289
 
     /// trouve index de le joueur en tour
     for(int i=0; i<nbj; i++)
@@ -223,8 +228,8 @@ void animerJoueurs(BITMAP* plateau,Joueur * joueurs,int nbj)
             /// animate joueurs en attend nom et penality
             textout_ex (plateau,font1,joueurs[i].nom,x_nom_top,321,makecol(32,29,240),makecol(164,194,244));
             x_nom_top+=288;
-            animerJoueurEnTourPnealityCartes(plateau,joueurs[i],font1,x_penlity,47,289);
-            x_penlity += 288;
+           // animerJoueurEnTourPnealityCartes(plateau,joueurs[i],font1,x_penlity,47,289);
+           // x_penlity += 288;
 
 
         }
@@ -318,7 +323,7 @@ for(int i=0;i<partie->cartesDePlateau;i++){
                         for(int m = 0;m<3;m++){
                             if(m != j)
                             partie->joueurs[m].score = partie->orCartes[m].orNb;
-                            printf("here 1");
+                          //  printf("here 1");
 
                 }
                 }

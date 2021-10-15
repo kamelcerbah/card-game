@@ -1,9 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "Headers/plateaumouselogique.h"
-#include "Headers/plateaulogique.h"
-#include "minerwinerscreen.h"
-#include "saboteurwinerscreen.h"
+#include "Headers/board_mouse_logic.h"
+#include "Headers/board_logic.h"
+#include "win_screen.h"
+#include "lose_screen.h"
 //const int partiesMax = 30 ;
 // timer
 long int timer  ;
@@ -24,7 +24,7 @@ void plateauDeJeu(Partie *partie)
     BITMAP *plateau = create_bitmap(1024,900);
 
     /// background image
-    BITMAP *backGround = load_bitmap("assets/plateau/plateau_v2.bmp",NULL);
+    BITMAP *backGround = load_bitmap("assets/plateau/cardGamePlateau.bmp",NULL);
 
     ///game timer
     timer = partie->prvTimer;
@@ -76,7 +76,7 @@ void plateauDeJeu(Partie *partie)
 
 
         //display saboteur win  screen
-        if(isEmpty(partie->pioche)){
+        if(isEmpty(partie->pioche) || timer>59){
                 for(int i=0;i<partie->nbJoueurs;i++)
                     if(partie->joueurs[i].role == saboteur)
                             partie->joueurs[i].score = 6;
@@ -101,6 +101,7 @@ void plateauDeJeu(Partie *partie)
 
 
         //si le joueur passe son tour et tape sur D
+        /*
         if(key[KEY_D]){
                 int temp_x,temp_y;
                 for(int i=3;i>partie->joueurs[partie->indexjEnTour].trois;i--){
@@ -115,6 +116,7 @@ void plateauDeJeu(Partie *partie)
                     partie->joueurs[ partie->indexjEnTour ].trois =0;
 
         }
+        */
 
         ///Draw
 
@@ -126,7 +128,7 @@ void plateauDeJeu(Partie *partie)
 
         //texte à afficher dans l'application
         textout_ex (plateau,font,"Appuyer sur P pour sauvegarder ",0,890,makecol(32,29,240),makecol(109,158,235));
-        textout_ex (plateau,font,"Appuyer sur D pour passe ",300,890,makecol(32,29,240),makecol(109,158,235));
+        //textout_ex (plateau,font,"Appuyer sur D pour passe ",300,890,makecol(32,29,240),makecol(109,158,235));
 
         textprintf_ex(plateau, font,814, 13, makecol(32,29,240),makecol(164,194,244), "Temps reste : %ld ", 60 -timer );
         textprintf_ex(plateau, font,814,25, makecol(32,29,240),makecol(164,194,244), "reste : %d tour ", 3 -partie->joueurs[partie->indexjEnTour].trois );

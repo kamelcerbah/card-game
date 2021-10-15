@@ -31,24 +31,22 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
-		<Unit filename="Headers/actionCartes.h" />
-		<Unit filename="Headers/joueur.h" />
-		<Unit filename="Headers/nomdejoueurs.h" />
-		<Unit filename="Headers/orCartes.h" />
-		<Unit filename="Headers/partie.h" />
-		<Unit filename="Headers/pioche.h" />
-		<Unit filename="Headers/plateaulogique.h" />
-		<Unit filename="Headers/plateaumouselogique.h" />
-		<Unit filename="aide.h" />
+		<Unit filename="Headers/board_logic.h" />
+		<Unit filename="Headers/board_mouse_logic.h" />
+		<Unit filename="Headers/cards_to_play.h" />
+		<Unit filename="Headers/hidden_cards.h" />
+		<Unit filename="Headers/party.h" />
+		<Unit filename="Headers/play_cards.h" />
+		<Unit filename="Headers/player.h" />
+		<Unit filename="aid.h" />
+		<Unit filename="board.h" />
+		<Unit filename="lose_screen.h" />
 		<Unit filename="main.c">
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="menu.h" />
-		<Unit filename="menuDeJeu.h" />
-		<Unit filename="minerwinerscreen.h" />
-		<Unit filename="plateauDeJeu.h" />
-		<Unit filename="saboteurwinerscreen.h" />
 		<Unit filename="scorescreen.h" />
+		<Unit filename="win_screen.h" />
 		<Extensions>
 			<lib_finder disable_auto="1" />
 		</Extensions>

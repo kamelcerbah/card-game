@@ -1,7 +1,7 @@
 typedef struct {
     int top;
     unsigned capacity;
-    ActionCarteData actionCartes[69];
+    ActionCarteData actionCartes[10];
 }Pioche;
 //const int cardNombre =69;
 /*
