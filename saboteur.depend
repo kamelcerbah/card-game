@@ -215,7 +215,7 @@
 
 1621987532 d:\kamel\freelance\allegro4 game with c\saboteur_v3 stable\scorescreen.h
 
-1634030939 source:c:\users\cerbah\desktop\card-game\main.c
+1634826650 source:c:\users\cerbah\desktop\card-game\main.c
 	<stdio.h>
 	<stdlib.h>
 	<math.h>
@@ -243,7 +243,7 @@
 
 1633529014 c:\users\cerbah\desktop\card-game\headers\partie.h
 
-1634031749 c:\users\cerbah\desktop\card-game\menu.h
+1634826650 c:\users\cerbah\desktop\card-game\menu.h
 	"Headers/play_cards.h"
 	"Headers/hidden_cards.h"
 	"Headers/cards_to_play.h"
@@ -275,21 +275,21 @@
 
 1633107806 c:\users\cerbah\desktop\card-game\scorescreen.h
 
-1633107806 c:\users\cerbah\desktop\card-game\win_screen.h
+1634827587 c:\users\cerbah\desktop\card-game\win_screen.h
 
-1633107806 c:\users\cerbah\desktop\card-game\lose_screen.h
+1634827588 c:\users\cerbah\desktop\card-game\lose_screen.h
 
-1634033534 c:\users\cerbah\desktop\card-game\headers\play_cards.h
+1634826650 c:\users\cerbah\desktop\card-game\headers\play_cards.h
 
-1633530754 c:\users\cerbah\desktop\card-game\headers\hidden_cards.h
+1634826649 c:\users\cerbah\desktop\card-game\headers\hidden_cards.h
 
-1633606287 c:\users\cerbah\desktop\card-game\headers\cards_to_play.h
+1634826649 c:\users\cerbah\desktop\card-game\headers\cards_to_play.h
 
-1633107805 c:\users\cerbah\desktop\card-game\headers\player.h
+1634826650 c:\users\cerbah\desktop\card-game\headers\player.h
 
-1633529014 c:\users\cerbah\desktop\card-game\headers\party.h
+1634826649 c:\users\cerbah\desktop\card-game\headers\party.h
 
-1634031424 c:\users\cerbah\desktop\card-game\board.h
+1634827646 c:\users\cerbah\desktop\card-game\board.h
 	<stdio.h>
 	<stdlib.h>
 	"Headers/board_mouse_logic.h"
@@ -297,9 +297,9 @@
 	"win_screen.h"
 	"lose_screen.h"
 
-1633107805 c:\users\cerbah\desktop\card-game\headers\board_mouse_logic.h
+1634826649 c:\users\cerbah\desktop\card-game\headers\board_mouse_logic.h
 
-1634032313 c:\users\cerbah\desktop\card-game\headers\board_logic.h
+1634826649 c:\users\cerbah\desktop\card-game\headers\board_logic.h
 
-1634034173 c:\users\cerbah\desktop\card-game\aid.h
+1634826650 c:\users\cerbah\desktop\card-game\aid.h
 

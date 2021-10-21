@@ -76,12 +76,12 @@ void plateauDeJeu(Partie *partie)
 
 
         //display saboteur win  screen
-        if(isEmpty(partie->pioche) || timer>59){
+        if(isEmpty(partie->pioche) || timer>59 || key[KEY_L]){
                 for(int i=0;i<partie->nbJoueurs;i++)
                     if(partie->joueurs[i].role == saboteur)
                             partie->joueurs[i].score = 6;
             writePartieData(partie);
-                saboteurWinscreen();
+                lossScreen();
         return;
 
 
@@ -89,9 +89,9 @@ void plateauDeJeu(Partie *partie)
 
         // check if miners r the winers
         chercheurDorAGagne = chercheurDorGagne(partie);
-        if( chercheurDorAGagne ){
+        if( chercheurDorAGagne || key[KEY_W] ){
             writePartieData(partie);
-            minerWinScreen(&timer);
+            winScreen();
             return;
         }
 

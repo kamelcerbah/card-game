@@ -1,12 +1,12 @@
 
-void saboteurWinscreen(void)
+void lossScreen(void)
 {
-                    set_gfx_mode(GFX_AUTODETECT_WINDOWED,640,480,0,0);
+                    set_gfx_mode(GFX_AUTODETECT_WINDOWED,800,600,0,0);
 
-    int w = 640;
-    int h = 480;
+    int w = 800;
+    int h = 600;
     /// background image
-    BITMAP *BackGroundImage = load_bitmap("assets/saboteur_winscreen/saboteur_winscreen.bmp",NULL);
+    BITMAP *BackGroundImage = load_bitmap("assets/loss_screen/saboteur_winscreen.bmp",NULL);
     BITMAP * menuScreen = create_bitmap(w,h);
 
     /// not exiting till esc is pressed
